@@ -5,4 +5,8 @@ Fonts:
     @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
 
 Color Palette: 
-  
+  - Bdazzled Blue: #3D5A80
+  - Pale Cerulean: #98C1D9
+  - Light Cyan: #E0FBFC
+  - Burnt Sienna: #EE6C4D
+  - Gunmetal: #293241
