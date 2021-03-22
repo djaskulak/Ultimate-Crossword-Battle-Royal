@@ -1,0 +1,8 @@
+Fonts: 
+  - headers: Fugaz One
+    @import url('https://fonts.googleapis.com/css?family=Fugaz+One&display=swap');
+  - text: Roboto Condensed
+    @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
+
+Color Palette: 
+  
