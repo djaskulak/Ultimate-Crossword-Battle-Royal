@@ -2,19 +2,13 @@ import React from 'react';
 import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Navbar from 'react-bootstrap/Navbar';
+import "./header.css";
 
 function Header() {
   return (
-    <div class="nav">
+    <div class="header">
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-      <img
-        src="/public/CW_logo.png"
-        width="30"
-        height="30"
-        className="d-inline-block align-top"
-        alt="ClashWord logo"
-      />
-      <Navbar.Brand href="#home">ClashWord</Navbar.Brand>
+      <Navbar.Brand href="#home" id="head"><img src="/CW_logo.png"/></Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="mr-auto">
