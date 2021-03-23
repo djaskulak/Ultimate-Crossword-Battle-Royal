@@ -13,13 +13,13 @@ function App() {
         <Header/>
       </div>
       <div>
+        <Rules />
+      </div>
+      <div>
         <Toggle/>
       </div>
       <div>
         <Crossword/>
-      </div>
-      <div>
-        <Rules />
       </div>
     </div>
      

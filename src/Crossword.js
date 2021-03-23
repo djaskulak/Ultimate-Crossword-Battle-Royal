@@ -1,10 +1,7 @@
 import React, { useCallback, useRef, useState } from 'react';
 import styled from 'styled-components';
 import Crossword from '@jaredreisinger/react-crossword';
-
-
 const data = {
-    
   across: {
     1: {
       clue: 'haircuts with layers',
@@ -36,9 +33,6 @@ const data = {
         row:4,
         col:0,
     },
-
-
-
   },
   down: {
     1: {
@@ -72,27 +66,8 @@ const data = {
       col: 4,
           },
         },
-    
       }
-
-  
-
-
-      
-    
-    
-
-
 export default function MyPage() {
   const crossword = useRef();
-
-  const reset = useCallback((event) => {
-    crossword.current.reset();
-  }, []);
-
-
-
   return <Crossword data={data} />;
 }
-   
-
