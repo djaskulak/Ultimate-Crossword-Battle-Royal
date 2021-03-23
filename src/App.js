@@ -1,6 +1,6 @@
 import './App.css';
 import Crossword from './Crossword.js';
-import Header from './header.js';
+import Header from './Header.js';
 import Rules from './rules';
 import Toggle from './Toggle.js'
 import 'bootstrap/dist/css/bootstrap.min.css';
