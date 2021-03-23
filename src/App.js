@@ -18,6 +18,9 @@ function App() {
       <div>
         <Crossword/>
       </div>
+      <div>
+        <Rules />
+      </div>
     </div>
      
   );
