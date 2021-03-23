@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Fugaz+One&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
 
-ul {
-  justify-content: start
+h1 {
+  font-family: "Fugaz One"
 }
