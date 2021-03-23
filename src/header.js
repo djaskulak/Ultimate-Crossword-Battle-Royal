@@ -3,7 +3,6 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Nav from 'react-bootstrap/Nav';
 import logo from "./CW_logo.png";
-import "./header.css";
 
 function Header() {
   return (

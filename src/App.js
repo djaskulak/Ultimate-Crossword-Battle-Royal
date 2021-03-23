@@ -1,6 +1,7 @@
 import './App.css';
 import Crossword from './Crossword.js';
 import Header from './header.js';
+import Rules from './rules';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -12,6 +13,10 @@ function App() {
       <div>
         <Crossword/>
       </div>
+      <div>
+        <Rules />
+      </div>
+      
     </div>
   );
 }
